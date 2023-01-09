@@ -1,0 +1,238 @@
+.service__margin
+{margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+text-align: center;
+justify-content: center;
+align-items: center;
+
+}
+.head{
+
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 78px;
+
+text-align: center;
+align-items: center;
+color: #003B79;
+margin-left: 441px;
+height: 78px;
+width: 559px;
+margin-right: 440px;
+
+}
+.desc{
+
+    width: 548px;
+    height: 78px;
+    
+    margin-bottom: 25px;
+
+}
+.desc p{
+
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+    
+    text-align: center;
+    
+    color: #002348;
+    
+    width: 548px;
+    height: 78px;
+    
+}
+.shape__box{
+    
+    display: flex;
+    gap:36px;
+}
+
+.shape__box .shape{
+width: 273px;
+height: 323px;
+background: #FFFFFF;
+box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+border-radius: 20px;
+}
+.shape__box .shape1 img{
+    position: absolute;
+    height: 127.43462371826172px;
+width: 113.25347900390625px;
+left: 164.0050048828125px;
+top: 1258.2801513671875px;
+border-radius: 0px;
+
+}
+.shape__box .shape2 img{
+    position: absolute;
+    height: 129.34525299072266px;
+    width: 127.99617004394531px;
+    left: 468.9999084472656px;
+    top: 1258.2801513671875px;
+   
+}
+.shape__box .shape2
+{
+    height: 373px;
+    width: 273px;
+    background: #007EF3;
+    box-shadow: 0px 10px 50px 25px rgba(0, 126, 243, 0.26049);
+    border-radius: 20px;
+}
+.shape__box .shape3 img{
+    position: absolute;
+    height: 121.89849853515625px;
+width: 128.000244140625px;
+left: 778px;
+top: 1258.2801513671875px;
+border-radius: 0px;
+
+   
+   
+}
+.shape__box .shape3
+{background: #FFFFFF;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+}
+.shape__box .shape4 img{
+    position: absolute;
+    height: 128px;
+    width: 95.40425109863281px;
+    left: 1092.0477294921875px;
+    top: 1258.2801513671875px;
+    border-radius: 0px;
+    
+   
+   
+}
+.shape__box .shape4
+{background: #FFFFFF;
+    box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+    border-radius: 20px;
+}
+
+.shape p{
+    margin-top:223px;
+   margin-left: 34px;
+   margin-right: 116px;
+   margin-bottom: 70px;
+    color:#002348;
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+}
+.side div p{
+    width: 179px;
+    height: 30px;
+}
+@media screen and (max-width:1050px){
+    .service__margin { margin: 90px 0 0 0; 
+    width: 847px; 
+align-items: flex-start;}
+    .head  { margin: 0 0 10px 0;
+        width: 523px;
+text-align: center;
+align-items: center;
+font-size: 50px;
+line-height: 78px;
+text-align: center;
+align-items: center;
+height: 68px;
+
+}
+.desc{
+    width: 450px;
+    height: 78px;
+margin: 0 0 43px 0;
+}
+.desc p{
+
+    width: 450px;
+    height: 78px;
+position: absolute;
+margin:0 0 0px 33px;
+
+}
+.shape__box .shape{
+    width: 190px;
+    height: 230px;
+    margin-top: 10px;
+    }
+
+    .shape__box{
+    padding: 0 0 0 43px;
+       display: grid;
+  grid-template-columns: 50% 50%;	
+    }
+    .shape__box .shape1 img{
+        position: relative;
+        height: 96.43462371826172px;
+    width: 90.25347900390625px;
+    left:0px;
+    top: 23.2801513671875px;
+
+    }
+    .shape__box .shape2 img{
+        position: relative;
+        height: 96.43462371826172px;
+    width: 90.25347900390625px;
+    left:0px;
+    top: 23.2801513671875px;
+
+    }
+    .shape__box .shape3 img{
+        position: relative;
+        height: 96.43462371826172px;
+    width: 90.25347900390625px;
+    left:0px;
+    top: 23.2801513671875px;
+
+    }
+    .shape__box .shape4 img{
+        position: relative;
+        height: 96.43462371826172px;
+    width: 90.25347900390625px;
+    left:0px;
+    top: 23.2801513671875px;
+
+    }
+    .shape p{
+        margin-top:63px;
+       margin-left: 14px;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 0px;
+    margin-right: 50px;
+    }
+    .shape2 .s2__text{
+padding: 10px 0 0 0px;
+margin-left: -60px;
+font-size:12px ;
+font-weight: 800;
+    }
+
+    }
+    
+    @media screen and (max-width:700px) 
+    {   .service__margin { margin: 90px 0 0 0; }
+        
+    .desc{
+
+        margin-bottom:  43px;
+        
+        } } 
+    

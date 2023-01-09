@@ -1,0 +1,270 @@
+.sp_main{
+  
+    padding-top: 184px;
+    padding-left: 120px;
+}
+.sp__margin{display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.sp__margin .sp__heading{
+    height: 78px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 78px;
+
+
+text-align: center;
+
+color: #003B79;
+}
+
+.sp__margin .sp__desc{
+   
+    margin-bottom: 68px;
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+  
+    
+    text-align: center;
+    
+    color: #002348;
+
+    height: 78px;
+width: 546px;
+
+
+}
+
+
+
+
+/* ---------------- */
+.dc__images{
+    display: flex;
+    gap: 35px;
+}
+
+.dc1{
+    height: 448px;
+
+width: 274px;
+
+    background: #FFFFFF;
+box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+border-radius: 20px;
+}
+.dc1 img{height: 324px;
+    width: 274px;
+   
+background: #AED3E2;
+border-radius: 20px 20px 0px 0px;
+    
+
+}
+.dc2{
+    height: 448px;
+width: 274px;
+
+    background: #FFFFFF;
+box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+border-radius: 20px;
+}
+.dc2 img{height: 324px;
+    width: 274px;
+   
+background: #AED3E2;
+border-radius: 20px 20px 0px 0px;
+    
+
+}
+.dc3{
+    height: 448px;
+width: 274px;
+
+    background: #FFFFFF;
+box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+border-radius: 20px;
+}
+.dc3 img{height: 324px;
+    width: 274px;
+   
+background: #AED3E2;
+border-radius: 20px 20px 0px 0px;
+    
+
+}
+.dc4{
+    height: 448px;
+width: 274px;
+
+    background: #FFFFFF;
+box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+border-radius: 20px;
+}
+.dc4 img{height: 324px;
+    width: 274px;
+   
+background: #AED3E2;
+border-radius: 20px 20px 0px 0px;
+    
+}
+.dc1 .name1{
+    height: 30px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;  
+    color: #002348;
+    
+
+
+margin-left:34px ;
+
+} 
+.dc2 .name2{
+   
+    height: 30px;
+margin-left: 34px;
+    
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: #002348;
+    
+}
+.dc3 .name3{
+ 
+height: 30px;
+
+margin-left: 34px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+color: #002348;
+}
+.dc4 .name4 {
+    height: 30px;
+    margin-left: 34px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 30px;
+
+color: #002348;
+}
+.dc1 .job1{
+    height: 23px;
+    margin-left: 34px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+
+
+color: #002348;
+}
+.dc2 .job2{
+    height: 23px;
+    margin-left: 34px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+
+
+color: #002348;
+}
+.dc3 .job3{
+    height: 23px;
+    margin-left: 34px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+
+
+color: #002348;
+}
+.dc4 .job4{
+    height: 23px;
+    margin-left: 34px;
+
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+
+
+color: #002348;
+}
+
+
+@media screen and (max-width:1050px){
+    .sp_main{
+        padding-left:2px;
+        width:550px;
+    padding-top: 134px;
+        
+    }
+    .sp__margin .sp__heading{font-size: 44px;
+        line-height: 68px;
+
+    }
+    .dc__images {display: grid;
+        grid-template-columns: 50% 50%;	}
+        .dc__images img{
+            height: 213px;
+        width: 225px;
+}
+.dc1 ,.dc2,.dc3,.dc4{
+    height: 303px;
+    width: 225px;   
+}
+.dc__images p{ 
+    margin:4px 0 25px 0;
+}
+
+}
+    @media screen and (max-width:700px) 
+    {  .sp__margin .sp__heading{font-size: 43px;
+         }
+    .dc__images {display: grid;
+        grid-template-columns: 50% 50%;	}
+    }
+    
+    @media screen and (max-width:550px) 
+    {  
+    
+    }

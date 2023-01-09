@@ -1,0 +1,207 @@
+.clinic{
+        height: 1127px;
+width: 1440px;
+margin-top: 166px;
+border-radius: 0px;
+background: #FFFFFF;
+
+
+display: flex;
+}
+.text{
+    position:absolute;
+    top:2264px;
+    left:120px;
+    right:751px;
+    padding-top: 0;
+    margin: 0;
+}
+.cl__heading{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 78px;
+
+color: #003B79;
+margin-top: 0;
+margin-right: 0;
+margin-bottom: 34px;
+}
+.cl__desc{
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 39px;
+
+Width:546px;
+Height:78px;
+color: #002348
+}
+.text button{
+    height: 60px;
+width: 186px;
+    background: #007FF4;
+border-radius: 30px;
+border: none;
+margin-top: 44px;
+}
+.lm_btn{font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.woman1{
+    background: #FFFFFF;
+box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+border-radius: 20px;
+    
+height: 236px;
+width: 282px;
+
+border-radius: 20px;
+position:absolute;
+
+left: 724px;
+top: 2079px;
+
+}
+.woman2{
+    background: #FFFFFF;
+box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+border-radius: 20px;
+
+height: 242px;
+width: 282px;
+border-radius: 20px;
+
+position:absolute;
+
+left: 1037px;
+top: 2280px;
+right: 121px;
+}
+.ambulance{
+    background: #FFFFFF;
+box-shadow: 0px 10px 50px 25px rgba(0, 59, 121, 0.0725798);
+border-radius: 20px;
+height: 242px;
+width: 282px;
+
+border-radius: 20px;
+
+position:absolute;
+
+left: 724px;
+top: 2518px;
+right: 434px;
+
+}
+.woman1 img{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.woman2 img{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.ambulance img{
+    position: absolute;
+    margin-top: -120px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.side p{
+
+    margin-top: 160px;
+    margin-left: 28px;
+    margin-right:7px;
+    margin-bottom: 52px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    color: #002348;
+} 
+.side .woman1 p{
+    width:180px
+}
+
+@media screen and (max-width:1050px){
+    .clinic  { margin: 0; }
+    .text  { 
+        position:absolute;
+        top:1850px;
+        left:60px;
+        right:751px;
+        padding-top: 0;
+        margin: 0;
+        width:520px ;
+    }
+
+    .text .cl__heading{ 
+      
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 68px;
+        
+        color: #003B79;
+        
+        margin: 0 0 0 0;
+
+    }
+    .text .cl__desc{
+        width: 446px;
+        margin-top: 10px;
+    }
+    .side{
+        position: absolute;
+        left:-724px;
+        top: 200px;
+
+border-radius: 20px;
+position:absolute;
+
+    }
+    .side .woman1 , .woman2, .ambulance{
+        height: 192px;
+width: 232px;
+
+    }
+    .side img{
+        height: 182px;
+        width: 182px;
+        
+            position: absolute;
+            margin-top: -80px;
+    }
+    .side p{
+
+        margin-top: 130px;}
+        .side .woman1 p{
+            margin-right: 0px;
+        }
+}
+    
+    
+    @media screen and (max-width:700px) 
+    {  .gpt3__navbar{padding: 2rem 4rem;} }
+    
+    @media screen and (max-width:550px) 
+    {  .gpt3__navbar  {padding: 2rem;}
+       .gpt3__navbar-sign  {display:none}
+       .gpt3__navbar-menu_container {top:20px;}
+       .gpt3__navbar-menu_container-links-sign  
+       { display: block; }
+    
+    }

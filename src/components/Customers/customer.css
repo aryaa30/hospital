@@ -1,0 +1,42 @@
+.cs__margin{ 
+    height: 600px;
+width: 1440px;
+padding-left: 121px;
+}
+
+.head_cs p{
+    font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 54px;
+line-height: 78px;
+
+
+color: #003B79;
+}
+.comments{
+    border: 2px solid red;
+    height: 294px;
+width: 577px;
+border-radius: 20px;
+
+} 
+
+@media screen and (max-width:1050px){
+    .cs__margin{ 
+        height: 600px;
+    width: 840px;
+    padding-left: 14px;
+    margin: 69px  0 0 0 ;
+    }
+    .head_cs p{    
+    font-size: 49px;
+    line-height: 69px;
+    
+    }
+    .com_d{
+        padding-left: 24px;
+    }
+    }
+    
+   

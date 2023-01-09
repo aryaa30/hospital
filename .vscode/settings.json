@@ -1,0 +1,5 @@
+{
+    "git.alwaysSignOff": false,
+    "git.allowNoVerifyCommit": true,
+    "git.autofetch": true
+}
