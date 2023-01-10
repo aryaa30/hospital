@@ -1,4 +1,5 @@
 {
+  "homepage":"https://aryaa30.github.io/hospital",
   "name": "hospital",
   "version": "1.0.0",
   "private": true,
@@ -7,6 +8,8 @@
     "gatsby"
   ],
   "scripts": {
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
