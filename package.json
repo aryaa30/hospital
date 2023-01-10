@@ -1,5 +1,5 @@
 {
-  "homepage":"https://aryaa30.github.io/hospital",
+  "homepage": "https://aryaa30.github.io/hospital",
   "name": "hospital",
   "version": "1.0.0",
   "private": true,
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -21,5 +21,8 @@
     "gatsby": "^5.3.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
