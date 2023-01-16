@@ -1,52 +1,45 @@
-import { useEffect } from "react";
-import { useState } from "react";
-// import axios from "axios";
 import React from "react";
+import { useState } from "react";
+import { useEffect } from "react";
+import axios from "axios";
 
+import "./Comments.css"
 
-const axios =require('axios');
+function Comments(){
 
-const Coms = () => {
-  const [myData, setMyData] = useState([]);
-  const [isError, setIsError] = useState("");
+  /*-----------------------------------------------*/
 
+const [myData, setMyData] = useState([]);
+  
 
-const getApiData = async () => {
-   try{
-    const res = await axios.get("/posts");
-    setMyData(res.data);
-   }
-   catch (error){
-    setIsError(error.message);
-   }
+useEffect(() => {
+  return () =>{
+axios
+.get("https://admin.tomedes.com/api/v1/get-reviews?page=1")
+.then((response) => setMyData(response.data.data));
+  }
+},[]);
 
-};
-useEffect (()=>{
-  getApiData();
-},);
+  return (
+   <div className='carding'>
+   <h1> Axios api</h1>
+ 
+   {myData.map((post)=>{
+const {ID, Name, rating, Reviews} = post;
+return <div className='main__api'>
+  
+<div className='yellow' key={ID}>
+<h2 className='name__1'>
+  Name :   {Name}
+</h2>
+<p className='name__2'>Rating :  {rating}</p>
+<p className='name__3'>Reviews :  {Reviews.slice(0 ,150)}</p>
+</div>
 
-return(
-  <>
-  <h1>Axios</h1>
-  {isError !== "" && <h2>{isError}</h2>}
+</div>
 
-  <div className="grid">
-{myData.map((post) =>{
-
-const{ID, Name, Reviews} = post;
-return (
-  <div key={ID} className="card">
-
-<h2>{Name.toUpperCase()}</h2>
-<p>{{Reviews}.Reviews}</p>
-
-  </div>
-)
+   })}
+</div>  
+  );
 }
-
-)}
-  </div>
-  </>
-);
-};
- export default Coms;
+export default Comments
