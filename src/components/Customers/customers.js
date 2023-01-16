@@ -1,7 +1,7 @@
 
 import React from 'react';
 import "./customer.css";
-import Coms from './comments';
+import Comments from './comments';
  
  const Customers = () => {
 
@@ -12,7 +12,7 @@ import Coms from './comments';
     <div>
       <div className='com_d'>
       
-<Coms/>
+<Comments/>
 </div>
     </div>
     </div>
