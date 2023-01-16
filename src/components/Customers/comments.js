@@ -22,7 +22,7 @@ axios
 
   return (
    <div className='carding'>
- <h1>arya</h1>
+ 
    {myData.map((post)=>{
 const {ID, Name, rating, Reviews} = post;
 return <div className='main__api'>
