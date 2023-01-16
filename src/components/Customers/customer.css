@@ -2,6 +2,8 @@
     height: 600px;
 width: 1440px;
 padding-left: 121px;
+background: #F8FDFF;
+
 }
 
 .head_cs p{
@@ -14,13 +16,9 @@ line-height: 78px;
 
 color: #003B79;
 }
-.comments{
-    border: 2px solid red;
-    height: 294px;
-width: 577px;
-border-radius: 20px;
 
-} 
+
+
 
 @media screen and (max-width:1050px){
     .cs__margin{ 
