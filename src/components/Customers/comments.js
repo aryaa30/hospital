@@ -5,7 +5,7 @@ import axios from "axios";
 
 import "./Comments.css"
 
-function Comments(){
+function comments(){
 
   /*-----------------------------------------------*/
 
