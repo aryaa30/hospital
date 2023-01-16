@@ -5,7 +5,7 @@ import axios from "axios";
 
 import "./comments.css"
 
-function comments(){
+function Comments(){
 
   /*-----------------------------------------------*/
 
@@ -42,4 +42,4 @@ return <div className='main__api'>
 </div>  
   );
 }
-export default Comments
+export default Comments;
